@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/WpfStudy.sln
+/WpfStudy.MSTests/WpfStudy.MSTests.csproj
