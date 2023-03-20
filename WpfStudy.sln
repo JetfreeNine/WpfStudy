@@ -5,9 +5,13 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfStudy.MSTests", "WpfStudy.MSTests\WpfStudy.MSTests.csproj", "{B38DDDCB-3025-4703-8692-C244F3C571C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfStudy", "WpfStudy\WpfStudy.csproj", "{C63D3C9A-9390-43A4-BA99-4AADECC6F4B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfStudy", "WpfStudy\WpfStudy.csproj", "{C63D3C9A-9390-43A4-BA99-4AADECC6F4B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfStudy.WPF", "WpfStudy.WPF\WpfStudy.WPF.csproj", "{D3F08BFB-F83E-4686-A154-8D1F2E6F6669}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfStudy.WPF", "WpfStudy.WPF\WpfStudy.WPF.csproj", "{D3F08BFB-F83E-4686-A154-8D1F2E6F6669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfStudy.NUnitTests", "WpfStudy.NUnitTests\WpfStudy.NUnitTests.csproj", "{13655381-7698-4B58-8C90-8A87F83C5615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfStudy.Controller", "WpfStudy.Controller\WpfStudy.Controller.csproj", "{D423A492-E314-4981-B13B-0CD0DD62D965}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{D3F08BFB-F83E-4686-A154-8D1F2E6F6669}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3F08BFB-F83E-4686-A154-8D1F2E6F6669}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3F08BFB-F83E-4686-A154-8D1F2E6F6669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13655381-7698-4B58-8C90-8A87F83C5615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13655381-7698-4B58-8C90-8A87F83C5615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13655381-7698-4B58-8C90-8A87F83C5615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13655381-7698-4B58-8C90-8A87F83C5615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D423A492-E314-4981-B13B-0CD0DD62D965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D423A492-E314-4981-B13B-0CD0DD62D965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D423A492-E314-4981-B13B-0CD0DD62D965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D423A492-E314-4981-B13B-0CD0DD62D965}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

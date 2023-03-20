@@ -14,7 +14,7 @@ Thread.CurrentThread.SetApartmentState(ApartmentState.STA);
 WpfStudy.WPF.App.Main();
 
 
-
 // 프로그램 종료 시, 처리할 부분
 // 전원이 꺼지는 등, 강제 종료 시, 이부분을 건너뛰기에 로그로 활용 가능함
+
 MessageBox.Show("종료함");
