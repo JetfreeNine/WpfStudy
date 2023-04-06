@@ -65,6 +65,4 @@ public class AppCheck : IAppCheck
         
         return sqlConnection;
     }
-
-
 }
