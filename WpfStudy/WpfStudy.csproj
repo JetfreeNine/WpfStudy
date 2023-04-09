@@ -7,6 +7,7 @@
 		<PlatformTarget>x64</PlatformTarget>
 	</PropertyGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\WpfStudy.WPF\WpfStudy.WPF.csproj" />
+	  <ProjectReference Include="..\WpfStudy.Controller\WpfStudy.Controller.csproj" />
+	  <ProjectReference Include="..\WpfStudy.WPF\WpfStudy.WPF.csproj" />
 	</ItemGroup>
 </Project>

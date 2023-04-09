@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace WpfStudy.Controller.Domain;
-internal class AppConfiguration
+public class AppConfiguration
 {
-    internal string ServerName { get; set; } = string.Empty;
-    internal string IP { get; set; } = string.Empty;
-    internal string ServerPort { get; set; } = string.Empty;
-    internal string ID { get; set; } = string.Empty;
-    internal string Password { get; set; } = string.Empty;
+    public string ServerName { get; set; } = string.Empty;
+    public string IP { get; set; } = string.Empty;
+    public string ServerPort { get; set; } = string.Empty;
+    public string ID { get; set; } = string.Empty;
+    public string Password { get; set; } = string.Empty;
 }

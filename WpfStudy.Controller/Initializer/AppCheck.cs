@@ -34,7 +34,6 @@ public class AppCheck : IAppCheck
     private void Initializer()
     {
         AppConfiguration appConfiguration = GetConfiguration();
-        SqlConnection sqlConnection = ConnectDbServer(appConfiguration);
     }
 
     // 환경 설정을 불러온다.
@@ -46,7 +45,7 @@ public class AppCheck : IAppCheck
 
     // 환경설정 정보를 통해 DB 연결자를 불러온다.
     // 추후 이부분을 EF 7로 업그레이드 할 것!!!!
-    private SqlConnection ConnectDbServer(AppConfiguration appConfiguration)
+    public string ConnectDbServer(AppConfiguration appConfiguration)
     {
         var stringBuilder = new StringBuilder()
             .Append(appConfiguration.IP)
@@ -63,6 +62,6 @@ public class AppCheck : IAppCheck
 
         var sqlConnection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
         
-        return sqlConnection;
+        return sqlConnectionStringBuilder.ConnectionString;
     }
 }
